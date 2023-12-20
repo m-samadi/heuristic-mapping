@@ -61,7 +61,7 @@ def specify_et(num_tasks, part_list, et_min, et_max, deadline_min, deadline_max)
 	for i in range(num_tasks):
 		for j in range(len(part_list[i])):
 			sum_et += part_list[i][j].et
-	deadline = (random.randint(deadline_min * 10, deadline_max * 10) / 10) * sum_et
+	deadline = (random.randint(int(deadline_min * 10), int(deadline_max * 10)) / 10) * sum_et
 
 	# Determine response time of the parts #
 	for i in range(num_tasks):

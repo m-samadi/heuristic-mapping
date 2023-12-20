@@ -22,4 +22,4 @@ The simulation is run on each version using the following command:
 ```
 python main.py
 ```
-If the DAG is generated based on a predefined graph (i.e., benchmark), press 'y'; unless press 'n'.
+If the DAG is generated based on a predefined graph (i.e., benchmark), press 'y'; unless press 'n'. It is worth noting that the 'PIL' module should be installed before running.
